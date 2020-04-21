@@ -11,6 +11,7 @@
     <OutputPath>.</OutputPath>
     <Name>PythonWebinar</Name>
     <RootNamespace>PythonWebinar</RootNamespace>
+    <TestFramework>unittest</TestFramework>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>

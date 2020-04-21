@@ -55,19 +55,19 @@ print()
 print("Введенные торвары:")
 print(goods)
 
-#goods = [
-#(1, {"название": "компьютер", "цена": 20000, "количество": 5, "eд": "шт."}),
-#(2, {"название": "принтер", "цена": 6000, "количество": 2, "eд": "шт."}),
-#(3, {"название": "сканер", "цена": 2000, "количество": 7, "eд": "шт."})
-#]
-#
+goods = [
+(1, {"название": "компьютер", "цена": 20000, "количество": 5, "eд": "шт."}),
+(2, {"название": "принтер", "цена": 6000, "количество": 2, "eд": "шт."}),
+(3, {"название": "сканер", "цена": 2000, "количество": 7, "eд": "шт."})
+]
+
 analytics = dict()
 
 for good in goods:
     characteristics = good[1]
     for key, value in characteristics.items():
         
-        if analytics.setdefault(key) == None:
+        if analytics.setdefault(key, None) == None:
             analytics[key] = list()
 
         if value not in analytics[key]:

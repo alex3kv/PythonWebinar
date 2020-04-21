@@ -24,11 +24,11 @@ while True:
 
     for i, item in enumerate(rating):        
 
-        if (value > item):
+        if value > item:
             insert_index = i
             break
 
-        if(value == item):
+        if value == item:
             continue        
 
     if insert_index == None:
