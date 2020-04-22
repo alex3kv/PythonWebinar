@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>b3e23ab8-d99b-4c92-80e0-c4fc7c455439</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Lesson2\Task6.py</StartupFile>
+    <StartupFile>Lesson3\Task5.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -36,11 +36,18 @@
     <Compile Include="Lesson2\Task2.py" />
     <Compile Include="Lesson2\Task1.py" />
     <Compile Include="Lesson2\Task6.py" />
+    <Compile Include="Lesson3\Task1.py" />
+    <Compile Include="Lesson3\Task2.py" />
+    <Compile Include="Lesson3\Task3.py" />
+    <Compile Include="Lesson3\Task4.py" />
+    <Compile Include="Lesson3\Task5.py" />
+    <Compile Include="Lesson3\Task6.py" />
     <Compile Include="Test.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Lesson1\" />
     <Folder Include="Lesson2\" />
+    <Folder Include="Lesson3\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
