@@ -67,8 +67,7 @@ for good in goods:
     characteristics = good[1]
     for key, value in characteristics.items():
         
-        if analytics.setdefault(key, None) == None:
-            analytics[key] = list()
+        analytics.setdefault(key, [])            
 
         if value not in analytics[key]:
             analytics[key].append(value)
