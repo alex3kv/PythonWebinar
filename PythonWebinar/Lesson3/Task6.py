@@ -8,4 +8,27 @@
 # заглавной буквы.  Необходимо использовать написанную ранее функцию
 # int_func().
 #
+#
+def to_upper(symbol):
+    code = ord(symbol) - 32
+    return chr(code)
 
+def int_func(word):    
+    first_letter = to_upper(word[0])
+    return first_letter + word[1:]
+
+def string_to_upper(value):
+    items = value.split()
+
+    result = int_func(items[0])
+
+    for item in items[1:]:
+        result += " " + int_func(item)
+
+    return result
+
+
+print(int_func("text"))
+
+input_string = "слова в нижнем регистре разделенные пробелом"
+print(string_to_upper(input_string))
