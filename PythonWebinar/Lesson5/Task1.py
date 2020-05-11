@@ -8,6 +8,7 @@ FILE_NAME = "Task1UserText.txt"
 def file_create(file):
     with open(file, "w", encoding="utf-8"): pass
 
+
 def file_write_text(file, user_string):
     try:
         with open(file, "a", encoding="utf-8") as f_obj:

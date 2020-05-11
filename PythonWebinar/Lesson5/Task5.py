@@ -8,6 +8,7 @@ FILE_NAME = "Task5UserFile.txt"
 def file_create(file):
     with open(file, "w", encoding="utf-8"): pass
 
+
 def file_read(file):
     try:
         with open(file) as f_obj:
@@ -16,6 +17,7 @@ def file_read(file):
         print("Произошла ошибка ввода-вывода!")
 
     return None
+
 
 def file_write_text(file, user_string):
     try:

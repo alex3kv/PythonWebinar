@@ -9,10 +9,12 @@
 #
 FILE_NAME = "Task4UserFile.txt"
 FILE_NAME_RESULT = "Task4UserFileResult.txt"
-VOCABULARY = {"One": "Один", "Two": "Два", "Three": "Три", "Four": "Четыре"}
+VOCABULARY = {"One": "Один", "Two": "Два", "Three": "Три", "Four": "Четыре", "Five": "Пять"}
+
 
 def file_create(file):
     with open(file, "w", encoding="utf-8"): pass
+
 
 def file_readlines(file):
     try:
@@ -23,6 +25,7 @@ def file_readlines(file):
 
     return None
 
+
 def file_write_text(file, user_string):
     try:
         with open(file, "a", encoding="utf-8") as f_obj:
@@ -30,10 +33,12 @@ def file_write_text(file, user_string):
     except IOError:
         print("Произошла ошибка ввода-вывода!")
 
+
 def translate_numeral(row):
     arr = row.split()
     numeral = arr[0]
     return row.replace(numeral, VOCABULARY[numeral])
+
 
 file_create(FILE_NAME_RESULT)
 
