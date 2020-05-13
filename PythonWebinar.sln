@@ -3,7 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30002.166
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PythonWebinar", "PythonWebinar\PythonWebinar.pyproj", "{B3E23AB8-D99B-4C92-80E0-C4FC7C455439}"
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Lesson6", "Lesson6\Lesson6.pyproj", "{C73937E1-B9E9-47AE-B03D-C4A6D21381B7}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Lesson2", "Lesson2\Lesson2.pyproj", "{5D4F0D11-7612-4D78-AE80-F1163DCE83CC}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Lesson1", "Lesson1\Lesson1.pyproj", "{3726C97C-2462-4479-84DE-44B5DBD36D67}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Lesson3", "Lesson3\Lesson3.pyproj", "{ED4E5D6A-0E0D-45A7-A0BD-A16DD65EEECD}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Lesson4", "Lesson4\Lesson4.pyproj", "{D9BE5D1B-8410-45AF-BE7D-D175E931B907}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Lesson5", "Lesson5\Lesson5.pyproj", "{AA5B9881-951B-47D1-A018-30314F5E5DAB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,8 +21,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B3E23AB8-D99B-4C92-80E0-C4FC7C455439}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B3E23AB8-D99B-4C92-80E0-C4FC7C455439}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C73937E1-B9E9-47AE-B03D-C4A6D21381B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C73937E1-B9E9-47AE-B03D-C4A6D21381B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D4F0D11-7612-4D78-AE80-F1163DCE83CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D4F0D11-7612-4D78-AE80-F1163DCE83CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3726C97C-2462-4479-84DE-44B5DBD36D67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3726C97C-2462-4479-84DE-44B5DBD36D67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED4E5D6A-0E0D-45A7-A0BD-A16DD65EEECD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED4E5D6A-0E0D-45A7-A0BD-A16DD65EEECD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9BE5D1B-8410-45AF-BE7D-D175E931B907}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9BE5D1B-8410-45AF-BE7D-D175E931B907}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA5B9881-951B-47D1-A018-30314F5E5DAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA5B9881-951B-47D1-A018-30314F5E5DAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
