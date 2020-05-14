@@ -15,8 +15,8 @@ import time
 from itertools import cycle
 
 class TrafficLight:
-    # атрибуты класса
-    __color = None
+    def __init__(self):
+        self.__color = None
 
     # методы класса
     def running(self):
