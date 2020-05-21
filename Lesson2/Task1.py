@@ -17,6 +17,7 @@ list_all_types.append(float_1)
 
 complex_1 = complex(5, 6)
 list_all_types.append(complex_1)
+list_all_types.append(complex_1.conjugate())
 
 #str_1 = input("Введите любе значение типа str: ")
 str_1 = "строка 1"

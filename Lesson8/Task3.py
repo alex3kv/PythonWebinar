@@ -15,5 +15,24 @@
 # введено число.  Класс-исключение должен не позволить пользователю ввести
 # текст (не число) и отобразить соответствующее сообщение.  При этом работа
 # скрипта не должна завершаться.
-pass
+class NotNumberException(Exception):
+    pass
 
+items = []
+
+while True:
+    inp_data = input("Введите значение списка: ")
+    
+    if inp_data == "stop":
+        break
+       
+    try:
+        if not inp_data.isdigit():
+            raise NotNumberException(f"Введенное значение \"{inp_data}\" не является числом")
+        inp_data = int(inp_data)    
+    except NotNumberException as err:
+        print(err)
+    else:
+        items.append(inp_data)
+   
+print("Введенные числа: ", items)

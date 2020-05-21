@@ -20,7 +20,7 @@ class Apparel(ABC):
         self._name = name
 
     @abstractmethod
-    def calculate_flow():
+    def calculate_flow(self):
         pass
 
 
